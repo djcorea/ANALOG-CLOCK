@@ -59,6 +59,8 @@ function drawTime(){
     drawHand(ctx,second,radius*0.9,radius*0.02);
 }
 
+
+//dibujar agujas del reloj
 function drawHand(ctx, pos, length, width){
     ctx.beginPath();
     ctx.lineWidth=width;
