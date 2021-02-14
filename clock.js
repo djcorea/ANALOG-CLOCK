@@ -69,5 +69,6 @@ function drawHand(ctx, pos, length, width){
     ctx.rotate(pos);
     ctx.lineTo(0,-length);
     ctx.stroke();
+
     ctx.rotate(-pos);
 }
