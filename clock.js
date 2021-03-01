@@ -3,7 +3,7 @@ var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext('2d');
 
 var radius = canvas.height/2;
-//console.log(ctx+"---"+radius);
+console.log(ctx+"---"+radius);
 ctx.translate(radius,radius);
 
 radius=radius*0.90;
