@@ -59,7 +59,7 @@ function drawTime(){
 }
 
 
-//dibujar agujas del reloj
+//dibujar ahujas del reloj
 function drawHand(ctx, pos, length, width){
     ctx.beginPath();
     ctx.lineWidth=width;
